@@ -1,0 +1,79 @@
+
+
+.pri_link{
+	color:#FF8D7A!important;
+	text-decoration:none!important;
+}
+h1{
+	font-weight : 700;
+	font-size:20px!important;
+	/*color: #2084ce*/
+	color:#000000;
+}
+h2{
+	font-weight : 700;
+	font-size:18px!important;
+	color: #333
+}
+.line-between
+{
+	height: 0px; 
+	clear: both; 
+	border-top:1px solid #ccc;
+}
+th
+{
+	font-weight : 700 !important;
+	font-size:15px!important;
+}
+
+#main-header
+{
+	position:inherit;
+}
+
+.btn
+{
+	background-image: linear-gradient(to bottom, #504B4B, #3a3a3a);
+	
+	
+	background-color: #3a3a3a;
+	color:#ffffff!important;
+}
+.btn-group.open .btn.dropdown-toggle {
+    background-color: #000;
+}
+.active {    
+    background-color:rgba(194,194,194,0.25) !important;
+    color: #222 !important;
+}
+.inner-active {
+    
+	background-color: #000000 !important;
+	 
+}
+.accordion-inner {
+    background-color: rgba(227, 227, 227, 0.25);
+}
+.header-bg-color
+{
+	
+	background-color: rgba(227, 227, 227, 0.25)!important;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+  background-position: inherit;
+  -webkit-transition: background-position 0s linear;
+     -moz-transition: background-position 0s linear;
+       -o-transition: background-position 0s linear;
+          transition: background-position 0s linear;
+}
+
+.btn:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: 0px;
+}

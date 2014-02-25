@@ -1,0 +1,9 @@
+/* css for ie */
+.nav {padding:0\9; margin-left:0px\9; width:1140px\9; background:#f35350\9;}
+.nav-pills > li > a{ padding:13px 39px\9;}
+.col-md-4{ width:30% !important\9;}
+.dropdown-menu{ z-index:2000;}
+.desktop-menu li{ background:#fff\9;}
+.dropdown-menu > li > a{ padding:10px 20px\9;}
+
+

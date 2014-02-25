@@ -1,0 +1,122 @@
+/*
+Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+
+body
+{
+	/* Font */
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+	font-size: 12px;
+
+	/* Text color */
+	color: #333;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+
+	margin: 20px;
+}
+
+.cke_editable
+{
+	font-size: 13px;
+	line-height: 1.6em;
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 8px;
+	padding-right: 20px;
+	border-right-width: 5px;
+}
+
+a
+{
+	color: #0782C1;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+	padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+h1{font-size: 30px !important;margin-top: 0 !important;font-weight: 900 !important;}
+h2{font-size: 20px !important; font-weight:500 !important;position: relative !important; margin-top:0 !important;padding: 15px 0;color:#ef1816; width:100%;}
+h3{font-size: 18px!important;color: #535353 !important;font-weight: 500 !important;padding-top:10px !important;}
+p{font-size: 14px !important;color: #535353 !important;font-weight: 500 !important; width:95%;}
+ul{ margin:0; padding:0 0 22px 0; list-style:none;}
+ul li{ padding:3px 0; font-size:12px; font-weight:600; line-height:10px;}
+ul li:before {color:#ef1816;content: "\2022";font-size: 26px;padding-right: 15px;padding-left: 0;position: relative;top: 7px;}
+
+a, a:hover, a:focus
+{
+	color:#ef1816;
+	text-decoration: none;
+}
+
+span[lang]
+{
+   font-style: italic;
+}
+
+
